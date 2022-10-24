@@ -1,9 +1,11 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue';
+import MessageBoard from './components/MessageBoard.vue';
 </script>
 
 <template>
-  <HelloWorld msg="Vite + Vue" />
+  <main class="min-h-screen bg-gray-50 p-4">
+    <MessageBoard />
+  </main>
 </template>
 
 <style scoped></style>
